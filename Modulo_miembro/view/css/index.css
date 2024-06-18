@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Viga&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 110, 110);
+    color: #000000; /* Color del texto */
+}
+
+header, main {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #1f1f1f;
+    min-height: 100%; /* Asegurar que el main cubra toda la altura */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+    padding: 10px;
+    position: absolute;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    border-collapse: collapse;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 8px;
+    margin: 0 auto; /* Centrar el contenedor */
+    flex: 1; /* Hacer que el contenedor ocupe todo el espacio disponible */
+}
+
+.table tbody tr:hover {
+    background-color: #727272; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.table tbody tr:hover td {
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.table_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #727272;
+    color: white;
+    font-size: 30px;
+}
+
+/* Estilos para el botón "Visualizar Deportista" */
+.btn-visualizar {
+    
+    background-color: #e7d788 !important; /* Amarillo */
+    color: #000000 !important; /* Color del texto */
+    border-color: #e7d788 !important; /* Color del borde */
+    
+}
+

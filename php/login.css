@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+* {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: ( #1f1f1f);
+    background-image: url(fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+form {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Login {
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mensaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.mensaje2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.Email input {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+}
+.password input{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 25px;
+        border-radius: 20px;  
+}
+
+.confirmar input {
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 175px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    border: none;
+
+}
+
+.Login {
+    max-width: 600px;
+    /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    /* Centra el contenido */
+}
+
+.header {
+    display: flex;
+    /* Utiliza un layout de flexbox */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+}
+
+.header h1 {
+    margin-right: 20px;
+    /* Ajusta el margen entre el texto y la imagen según tus necesidades */
+}
+
+.divider {
+    flex-grow: 1;
+    /* La línea dividirá el espacio restante */
+    border: none;
+    /* Elimina el borde por defecto */
+    border-top: 1px solid black;
+    /* Añade una línea divisora vertical de color negro */
+    margin: 0 20px;
+    /* Ajusta el margen de la línea divisora según tus necesidades */
+}
+
+
+.img {
+    max-width: 150px;
+    /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+}
+
+.recuperar{
+    margin-top: 40px;
+    text-align: center;
+}

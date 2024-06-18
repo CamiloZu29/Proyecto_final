@@ -1,0 +1,128 @@
+/* Estilos generales */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #ffffff; /* Color del texto */
+}
+
+main {
+    margin: 200px;
+    padding: 0;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 100vh; /* Ajustar al 100% del viewport height */
+}
+
+.container {
+    margin: 100;
+    border: 2px solid red;
+    background-color: #0f0f0f; /* Color de fondo del encabezado */
+    padding: 10px;
+    width: 700px;
+    border-radius: 8px;
+    flex: 1; /* Hacer que el contenedor ocupe todo el espacio vertical disponible */
+}
+
+
+.cuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+.cuadro input[type="text"],
+.cuadro input[type="number"],
+.cuadro input[type="email"],
+.cuadro input[type="date"],
+.cuadro select,
+.cuadro button,
+.imagen-perfil,
+.col-md-12,
+.foto {
+    margin: 10px 0; /* Añade espacio entre los elementos */
+    width: 100%; /* Ajusta el ancho de los elementos al 100% */
+}
+
+
+.cuadro button {
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 48%;
+}
+
+.cuadro button:hover {
+    background-color: #0056b3;
+}
+
+.imagen-perfil label {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.imagen-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    max-height: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+}
+
+
+.col-md-12 {
+    margin-top: 10px;
+}
+
+.cuadro .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary, .btn-danger {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 100px;
+}
+
+.foto input[type="file"] {
+    margin-top: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}

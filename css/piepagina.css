@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Viga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Viga", sans-serif;
+}
+
+/* {} */
+
+/*Estilo para el conteneddor del footer*/
+
+footer {
+    height: 100px;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #A73838;
+    color: #000000;
+    display: none;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+footer .contacto {
+    flex: 1 1 100%;
+    /* Ocupa todo el ancho en dispositivos pequeños */
+    margin-bottom: 10px;
+    /* Espacio entre el texto y el número */
+    text-align: left;
+}
+
+footer .contacto span {
+    display: block;
+    /* Hace que el texto ocupe todo el ancho */
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .numero {
+    margin-left: 10px;
+}
+
+footer .img {
+    width: 25px;
+    height: 25px;
+    margin-left: 75px;
+}
+
+
+footer .redes-sociales img {
+    height: 32px;
+    width: 32px;
+    margin-right: 40px;
+    margin-bottom: 32px;
+    cursor: pointer;
+
+}
+
+
+footer .redes-sociales {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}

@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    background-image: url('../imagenes/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 250px; /* Asegura que el contenido no quede debajo del header */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    font-size: 15px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #181818;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-top: 120px; /* Ajusta este valor según sea necesario para dejar el espacio deseado */
+}
+
+
+.cuadro input[type="text"],
+.cuadro input[type="number"],
+.cuadro input[type="email"],
+.cuadro input[type="date"],
+.cuadro select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.cuadro button {
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 48%;
+}
+
+.cuadro button:hover {
+    background-color: #0056b3;
+}
+
+.imagen-perfil label {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.imagen-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-picture svg {
+    width: 60%;
+    height: 60%;
+    color: #fff;
+}
+
+.col-md-12 {
+    margin-top: 10px;
+}
+
+.cuadro .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary, .btn-danger {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 100px;
+}
+
+.foto input[type="file"] {
+    margin-top: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}

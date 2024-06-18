@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Viga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Viga", sans-serif;
+}
+
+/* {} */
+
+/*Estilo para el conteneddor del footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    background-color:  #A73838;
+    min-height: 90px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Estilos para la lista con los iconos*/
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon_element{
+    list-style: none;
+}
+
+.icon {
+    color: black;
+    font-size: 34px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+
+/*Estilos para el contenido en la mitad*/
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu_element{
+    list-style: none;
+}
+
+.menu-icon{
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.phone{
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.phone:hover{
+    transform: translateY(-10px);
+}
+
+.menu-icon:hover{
+    opacity: 1.1;
+}
+
+
+/*Estilo para el texto en el final*/
+
+.text{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="login.css"> <!-- Asegúrate de que tu archivo CSS está enlazado correctamente -->
+</head>
+<body>
+    <div class="Login">
+        <div class="header">
+            <h1>SPARTANWEB</h1>
+            <hr class="divider">
+            <img class="img" src="spartanlogo.png" alt="">
+        </div> 
+        <form action="login.php" method="post"> <!-- Verifica que action esté apuntando correctamente a tu archivo PHP -->
+            <p class="mensaje"><i>Correo</i></p>
+            <div class="Email">
+                <input type="text" name="email">
+            </div>
+            <p class="mensaje2">Contraseña</p>
+            <div class="alert"><?php echo (isset($alert) ? $alert : ''); ?></div> <!-- Asegúrate de que $alert se muestra correctamente -->
+            <div class="password">
+                <input type="password" name="password">
+            </div>
+            <div class="confirmar">
+                <input type="submit" value="Confirmar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

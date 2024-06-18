@@ -1,0 +1,120 @@
+.msg_error{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.msg_save{
+    color: chartreuse;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+* {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body{
+    background-color: #1f1f1f;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+
+form {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.form_registro {
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.mensaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.mensaje2 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.email {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+}
+.contraseña {
+    margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 25px;
+        border-radius: 20px;  
+}
+
+
+.btn_save  {
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 175px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    border: none;
+
+}
+
+.mensaje3 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}

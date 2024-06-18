@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Viga&display=swap');
+
+/* Estilos generales */
+body {
+    background-image: url('../imagenes/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto; /* Centrar el contenedor */
+    flex: 1; /* Hacer que el contenedor ocupe todo el espacio disponible */
+}
+
+/* Estilos de la tabla */
+.table tbody tr:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+.table_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-size: 30px;
+}
+
+/* Estilos para el botón "Visualizar Deportista" */
+.btn-visualizar {
+    background-color: #ffc338; /* Amarillo */
+    color: #ffffff; /* Color del texto */
+    border-color: #6c757d; /* Color del borde gris */
+}
+
+.btn-visualizar:hover {
+    background-color: #ffc338; /* Cambia el color de fondo al pasar el cursor */
+    border-color: #6c757d; /* Cambia el color del borde al pasar el cursor */
+    color: #ffffff; /* Cambia el color del texto al pasar el cursor */
+}
